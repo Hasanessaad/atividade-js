@@ -10,7 +10,7 @@ habibi = window.prompt("indicate the salary:");
 habibi1 = window.prompt("indicate the readjustment:");
 
 xy = parseFloat(habibi);
-results = habibi*habibi1/100 + xy;
+results = habibi * habibi1/100 + xy;
 
 document.getElementById("habibi").innerHTML = (habibi);
 document.getElementById("habibi1").innerHTML = (habibi1);
