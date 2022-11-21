@@ -1,7 +1,7 @@
 let number;
 let cost;
 
-number = window.prompt("indicate the quantity you desire:");
+number = window.prompt("indicate the quantity of apples you desire:");
 
 document.getElementById('quantity').innerHTML = (number);
 

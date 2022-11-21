@@ -1,6 +1,8 @@
 let names;
 let age;
+let age1;
 let time;
+let time1;
 let result;
 
 names = window.prompt("indicate your name:");
@@ -8,8 +10,10 @@ age = window.prompt("indicate the year of birth");
 time = window.prompt("indicate the year of joining the company");
 
 document.getElementById('name1').innerHTML = names;
-document.getElementById('age').innerHTML = age;
-document.getElementById('working_time').innerHTML = time;
+age1 = 2022 - age;
+document.getElementById('age').innerHTML = (age1 + " years");
+time1 = 2022 - time;
+document.getElementById('working_time').innerHTML = (time1 + " years");
 
 if(age <= 1957){
 
