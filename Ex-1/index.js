@@ -12,7 +12,7 @@ habibi1 = window.prompt("indicate the readjustment:");
 xy = parseFloat(habibi);
 results = habibi * habibi1/100 + xy;
 
-document.getElementById("habibi").innerHTML = (habibi);
-document.getElementById("habibi1").innerHTML = (habibi1);
+document.getElementById("habibi").innerHTML = (habibi + " R$");
+document.getElementById("habibi1").innerHTML = (habibi1 + "%");
 
-document.getElementById('results').innerHTML =  (results);
+document.getElementById('results').innerHTML =  (results + " R$");

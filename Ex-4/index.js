@@ -11,5 +11,5 @@ new_cost_28 = original_cost * 28/100 + x;
 y = parseFloat(new_cost_28);
 new_cost = new_cost_28 * 45/100 + y;
 
-document.getElementById('factory_cost').innerHTML = (original_cost);
-document.getElementById('final_cost').innerHTML = (new_cost);
+document.getElementById('factory_cost').innerHTML = (original_cost + " R$");
+document.getElementById('final_cost').innerHTML = (new_cost + " R$");

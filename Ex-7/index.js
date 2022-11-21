@@ -8,11 +8,11 @@ document.getElementById('quantity').innerHTML = (number);
 if(number<12){
 
     cost = number * 1.30;
-    document.getElementById('quantity_less').innerHTML = (cost);
+    document.getElementById('quantity_less').innerHTML = (cost + " R$");
 
 }else if (number>=12){
 
     cost = number * 1;
-    document.getElementById('quantity_more').innerHTML = (cost);
+    document.getElementById('quantity_more').innerHTML = (cost + "R$");
 
 }
