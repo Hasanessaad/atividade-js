@@ -23,9 +23,8 @@ if(goals_team1>goals_team2){
 
     document.getElementById('results').innerHTML = (name_team2);
 
-}else if(goals_team1=goals_team2){
+}if(goals_team1 == goals_team2){
 
     document.getElementById('results').innerHTML = ("EMPATE!");
-
 
 }
